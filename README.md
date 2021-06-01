@@ -8,6 +8,6 @@ to compare datetime \
 also \
   <code>select * from coba where tanggal <= CURRENT_TIMESTAMP;</code>\
 ### convert string to date in mysql\
-    <code>SELECT STR_TO_DATE('21,5,2013','%d,%m,%Y');</code>\
-    #### result :\
-    ![alt text](https://github.com/UncalESB/SQL_Note/blob/main/str_to_date_mysql.PNG)
+<code>SELECT STR_TO_DATE('21,5,2013','%d,%m,%Y');</code>\
+result :\
+![alt text](https://github.com/UncalESB/SQL_Note/blob/main/str_to_date_mysql.PNG)
