@@ -6,4 +6,7 @@ column tanggal is datetime type of data, so have to change to date if only date 
 <code>select * from coba where tanggal <= NOW();</code>\
 to compare datetime \
 also \
-  <code>select * from coba where tanggal <= CURRENT_TIMESTAMP;</code>
+  <code>select * from coba where tanggal <= CURRENT_TIMESTAMP;</code>\
+### convert string to date in mysql\
+    <code>SELECT STR_TO_DATE('21,5,2013','%d,%m,%Y');</code>\
+    
